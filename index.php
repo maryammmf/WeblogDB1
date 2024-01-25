@@ -2,7 +2,7 @@
 
 require_once 'vendor/autoload.php';
 require 'routes.php';
-
+echo 'f';
 $connect = new PDO("mysql:host=127.0.0.1:8889;dbname=bank" , 'root' , '123');
 $sql = "SELECT * FROM branches ";
 $statment = $connect->prepare($sql);

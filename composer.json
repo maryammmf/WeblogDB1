@@ -1,0 +1,9 @@
+{
+    "name": "maryam/weblog-db1",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {}
+}
